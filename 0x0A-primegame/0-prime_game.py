@@ -21,7 +21,7 @@ def isWinner(x, nums):
 
     for i in nums:
         if sum(a[0:i + 1]) % 2 == 0:
-            ben += 1
+            b += 1
         else:
             m += 1
     if b > m:
